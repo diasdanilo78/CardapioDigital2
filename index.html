@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description" content="Pizza Truck – Artisan Wood-Fired Pizza Digital Menu" />
+  <meta name="theme-color" content="#1a0d00" />
+  <title>Pizza Truck 🍕</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="app">
+
+    <!-- ===== HEADER ===== -->
+    <header class="header">
+      <div class="header-decor">
+        <span class="decor-leaf decor-leaf--1">🌿</span>
+        <span class="decor-leaf decor-leaf--2">🌿</span>
+        <span class="decor-tomato decor-tomato--1">🍅</span>
+        <span class="decor-tomato decor-tomato--2">🍅</span>
+        <span class="decor-olive decor-olive--1">🫒</span>
+      </div>
+      <div class="logo">
+        <div class="logo-icon-wrap">
+          <span class="logo-pizza-anim">🍕</span>
+        </div>
+        <h1 class="logo-text">Pizza Truck</h1>
+        <p class="logo-tagline">Pizza on the Street, Flavor in the Soul</p>
+      </div>
+    </header>
+
+    <!-- ===== TABS ===== -->
+    <nav class="tab-nav" role="tablist">
+      <button class="tab-btn active" data-tab="pizzas" role="tab" aria-selected="true">
+        <span class="tab-icon">🍕</span>
+        <span class="tab-label">Pizzas</span>
+      </button>
+      <button class="tab-btn" data-tab="special" role="tab" aria-selected="false">
+        <span class="tab-icon">⭐</span>
+        <span class="tab-label">Special Pizzas</span>
+      </button>
+      <button class="tab-btn" data-tab="beverages" role="tab" aria-selected="false">
+        <span class="tab-icon">🥤</span>
+        <span class="tab-label">Beverages</span>
+      </button>
+    </nav>
+
+    <!-- ===== CONTENT ===== -->
+    <main class="menu-content">
+      <div id="pizzas"    class="tab-panel active" role="tabpanel"></div>
+      <div id="special"   class="tab-panel"         role="tabpanel"></div>
+      <div id="beverages" class="tab-panel"         role="tabpanel"></div>
+    </main>
+
+  </div><!-- /app -->
+
+  <!-- ===== FREDDY ASSISTANT ===== -->
+  <button class="assistant-fab" id="assistantFab" aria-label="Open Pizza Assistant – Freddy">
+    <div class="freddy-fab-svg" id="freddyFabSvg"></div>
+    <span class="fab-pulse"></span>
+  </button>
+
+  <div class="assistant-overlay" id="assistantOverlay"></div>
+
+  <div class="assistant-modal" id="assistantModal" role="dialog" aria-modal="true" aria-label="Freddy – Pizza Assistant">
+    <div class="assistant-modal-header">
+      <div class="assistant-avatar-wrap">
+        <div class="assistant-avatar-svg" id="assistantAvatarSvg"></div>
+        <span class="assistant-online-dot"></span>
+      </div>
+      <div class="assistant-info">
+        <h3 class="assistant-name">Freddy</h3>
+        <span class="assistant-role">🍕 Pizza Guide &amp; Mascot</span>
+      </div>
+      <button class="assistant-close-btn" id="assistantClose" aria-label="Close assistant">✕</button>
+    </div>
+    <div class="chat-messages" id="chatMessages"></div>
+    <div class="chat-options" id="chatOptions"></div>
+    <div class="chat-footer">
+      <button class="restart-btn" id="restartChat">↺ Start Over</button>
+    </div>
+  </div>
+
+  <!-- ===== TOAST ===== -->
+  <div class="toast" id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
