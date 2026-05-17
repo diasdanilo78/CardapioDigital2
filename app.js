@@ -213,8 +213,10 @@ const FALLBACKS = {
   pizza: '🍕', water: '💧', soda: '🥤', juice: '🍹',
 };
 
+const IMG_VER = '?v=2';
+
 function foodImg(id, alt, fallbackEmoji) {
-  const url = IMAGES[id] || '';
+  const url = (IMAGES[id] || '') + IMG_VER;
   return `<img src="${url}" alt="${alt}" loading="lazy"
     onerror="this.onerror=null;this.parentElement.innerHTML='<span class=\\'img-fallback\\'>${fallbackEmoji}</span>'">`;
 }
