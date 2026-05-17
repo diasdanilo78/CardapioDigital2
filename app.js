@@ -185,28 +185,28 @@ const MENU = {
 // REAL PHOTO IMAGES
 // =====================================================================
 const IMAGES = {
-  // Pizzas
-  calabresa:        'https://images.pexels.com/photos/845812/pexels-photo-845812.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop',
-  portuguesa:       'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=500&h=500&q=80',
-  mussarela:        'https://images.unsplash.com/photo-1588315029754-2dd089d39a1a?auto=format&fit=crop&w=500&h=500&q=80',
-  margherita:       'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=500&h=500&q=80',
-  doce:             'https://images.pexels.com/photos/1126359/pexels-photo-1126359.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop',
-  frango_catupiry:  'https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop',
-  vegetariana:      'https://images.pexels.com/photos/1049626/pexels-photo-1049626.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop',
-  napolitana:       'https://images.unsplash.com/photo-1579751626657-72bc17010498?auto=format&fit=crop&w=500&h=500&q=80',
-  pepperoni:        'https://images.pexels.com/photos/4109111/pexels-photo-4109111.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop',
-  tomate_seco:      'https://images.pexels.com/photos/208537/pexels-photo-208537.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop',
-  cogumelos_trufas: 'https://images.pexels.com/photos/1166120/pexels-photo-1166120.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&fit=crop',
-  // Beverages
-  agua_gas:         'https://images.pexels.com/photos/3737800/pexels-photo-3737800.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-  agua_sem:         'https://images.pexels.com/photos/327090/pexels-photo-327090.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-  coca:             'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&w=400&h=600&q=80',
-  pepsi:            'https://images.pexels.com/photos/2668308/pexels-photo-2668308.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-  guarana:          'https://images.pexels.com/photos/2983100/pexels-photo-2983100.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-  fanta:            'https://images.pexels.com/photos/3621462/pexels-photo-3621462.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-  suco_uva:         'https://images.pexels.com/photos/7656393/pexels-photo-7656393.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-  suco_laranja:     'https://images.pexels.com/photos/158053/fresh-orange-juice-squeezed-refreshing-citrus-158053.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
-  suco_caju:        'https://images.pexels.com/photos/1337825/pexels-photo-1337825.jpeg?auto=compress&cs=tinysrgb&w=400&h=600&fit=crop',
+  // Pizzas – local files (images/pizzas/)
+  calabresa:        './images/pizzas/calabresa.jpg',
+  portuguesa:       './images/pizzas/portuguesa.jpg',
+  mussarela:        './images/pizzas/mussarela.jpg',
+  margherita:       './images/pizzas/margherita.jpg',
+  doce:             './images/pizzas/doce.jpg',
+  frango_catupiry:  './images/pizzas/frango_catupiry.jpg',
+  vegetariana:      './images/pizzas/vegetariana.jpg',
+  napolitana:       './images/pizzas/napolitana.jpg',
+  pepperoni:        './images/pizzas/pepperoni.jpg',
+  tomate_seco:      './images/pizzas/tomate_seco.jpg',
+  cogumelos_trufas: './images/pizzas/cogumelos_trufas.jpg',
+  // Beverages – local files (images/beverages/)
+  agua_gas:         './images/beverages/agua_gas.jpg',
+  agua_sem:         './images/beverages/agua_sem.jpg',
+  coca:             './images/beverages/coca.jpg',
+  pepsi:            './images/beverages/pepsi.jpg',
+  guarana:          './images/beverages/guarana.jpg',
+  fanta:            './images/beverages/fanta.jpg',
+  suco_uva:         './images/beverages/suco_uva.jpg',
+  suco_laranja:     './images/beverages/suco_laranja.jpg',
+  suco_caju:        './images/beverages/suco_caju.jpg',
 };
 
 const FALLBACKS = {
